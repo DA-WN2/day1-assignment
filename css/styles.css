@@ -12,7 +12,7 @@ body {
 header {
   /* margin-top: 20px; */
   display: flex;
-  position: relative;
+  /* position: relative; */
   justify-content: center;
   height: 15rem;
   width: 100%;
@@ -71,38 +71,42 @@ header h2 {
 
 .outer-box {
   display: flex;
-  position: relative;
-  top: 20rem;
+  /* position: relative; */
+  /* top: 20rem; */
+  margin-top: 15rem;
   justify-content: space-evenly;
   height: 500px;
   width: 100%;
-  gap: 20px;
+  /* gap: 20px; */
 }
 .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #5f9598;
-  height: 490px;
+  height: 530px;
   width: 30%;
   /* border: 3px solid #f3f4f4; */
   outline: 3px solid #f3f4f4;
   border-radius: 20px;
 }
 .box-image {
-  margin: 10px 20px;
   width: 400px;
   height: 300px;
   border-radius: 20px;
 }
 .box h2 {
-  margin: 10px 20px;
+  margin: 10px 0px;
   font-size: 40px;
   font-family: "Mountains of Christmas", serif;
 }
 
 .box p {
-  margin: 10px 20px;
+  margin: 10px 0px;
   display: inline-block;
   width: 70%;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 #register {

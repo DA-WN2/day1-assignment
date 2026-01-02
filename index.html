@@ -74,7 +74,7 @@
           <label for="name">Name</label>
           <input type="text" id="name" />
           <br />
-          <label for="phn-no">Phn Number</label>
+          <label for="phn-no">Phn no</label>
           <input type="tel" pattern="[0-9]{10}" />
           <br />
           <fieldset>
@@ -85,14 +85,25 @@
               type="checkbox"
               id="no-internet"
               value="no-internet-challenge"
+              class="check"
             />
             <label for="no-internet">No internet Challenge</label>
             <br />
-            <input type="checkbox" id="python" value="python-bootcamp" />
+            <input
+              type="checkbox"
+              id="python"
+              class="check"
+              value="python-bootcamp"
+            />
             <label for="python">Python BootCamp</label>
 
             <br />
-            <input type="checkbox" id="treasure" value="treasure-hunting" />
+            <input
+              type="checkbox"
+              id="treasure"
+              value="treasure-hunting"
+              class="check"
+            />
             <label for="treasure">Treasure Hunting</label>
           </fieldset>
 
@@ -101,11 +112,10 @@
             <legend>Gender</legend>
             <input type="radio" id="male" name="gender" value="male" />
             <label for="male">male</label>
-            <br>
+            <br />
             <input type="radio" id="female" name="gender" value="female" />
             <label for="female">female</label>
-            <br>
-            
+            <br />
           </fieldset>
 
           <br />
@@ -116,7 +126,7 @@
             <option value="3">3rd Year</option>
             <option value="4">4th Year</option>
           </select>
-          <br>
+          <br />
           <button type="submit" class="btn">Register</button>
         </form>
       </div>

@@ -73,7 +73,7 @@ header h2 {
   display: flex;
   position: relative;
   top: 20rem;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 500px;
   width: 100%;
   gap: 20px;
@@ -114,12 +114,18 @@ header h2 {
   top: 70rem;
   width: 100%;
   font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 input {
   margin-bottom: 1rem;
   height: 30px;
   font-size: 22px;
-  width: 30%;
+  width: 50%;
+  margin-left: 10px;
+  border-radius: 10px;
 }
 select {
   margin-bottom: 1rem;
@@ -141,8 +147,15 @@ select {
   text-align: center;
   padding: 0px;
   margin-left: 25%;
+  
+  
 }
 .btn:hover {
   background-color: #f3f4f4;
   color: #061e29;
+}
+
+.check {
+  margin-right: 0;
+  width: 20px;
 }

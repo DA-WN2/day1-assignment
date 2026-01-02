@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- goole fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mountains+of+Christmas:wght@400;700&family=Tagesschrift&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><button>Home</button></li>
+          <li><button>Contact Us</button></li>
+          <li>
+            <button><a href="#register">Register</a></button>
+          </li>
+        </ul>
+      </nav>
+      <h1>Event Name</h1>
+      <h2>RIT KOTTAYAM</h2>
+      <!-- <img src="https://upload.wikimedia.org/wikipedia/en/2/22/Ritktym.jpg" alt="RIT KOTTAYAM"> -->
+    </header>
+
+    <main>
+      <div class="outer-box">
+        <div class="box">
+          <img
+            src="https://ih1.redbubble.net/image.2606242776.7747/fposter,small,wall_texture,square_product,600x600.jpg"
+            alt="No Internet Challenge"
+            class="box-image"
+          />
+          <h2>No Internet Challenge</h2>
+          <p>
+            Test your creativity by designing a complete website using only your
+            skills — no internet, no help, just innovation.
+          </p>
+        </div>
+        <div class="box">
+          <img
+            src="https://miro.medium.com/0*fWK2vpFXK0axBGEM"
+            alt="Python BootCamp"
+            class="box-image"
+          />
+          <h2>Python BootCamp</h2>
+          <p>
+            Learn Python from basics to real-world applications through hands-on
+            coding, problem solving, and interactive sessions
+          </p>
+        </div>
+        <div class="box">
+          <img
+            src="https://makingteams.com/wp-content/uploads/2024/10/Treasure-Hunt-Games-for-Team-Building-1.png"
+            alt="Treasure Hunt"
+            class="box-image"
+          />
+          <h2>Treasure Hunt</h2>
+          <p>
+            Crack clues, solve puzzles, and race against time in an exciting
+            treasure hunt that tests logic and teamwork.
+          </p>
+        </div>
+      </div>
+
+      <div id="register">
+        <form action="">
+          <label for="name">Name</label>
+          <input type="text" id="name" />
+          <br />
+          <label for="phn-no">Phn Number</label>
+          <input type="tel" pattern="[0-9]{10}" />
+          <br />
+          <fieldset>
+            <legend>Choose the events</legend>
+            <br />
+
+            <input
+              type="checkbox"
+              id="no-internet"
+              value="no-internet-challenge"
+            />
+            <label for="no-internet">No internet Challenge</label>
+            <br />
+            <input type="checkbox" id="python" value="python-bootcamp" />
+            <label for="python">Python BootCamp</label>
+
+            <br />
+            <input type="checkbox" id="treasure" value="treasure-hunting" />
+            <label for="treasure">Treasure Hunting</label>
+          </fieldset>
+
+          <br />
+          <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">male</label>
+            <br>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">female</label>
+            <br>
+            
+          </fieldset>
+
+          <br />
+          <label for="Year">year of study</label>
+          <select name="Year" id="Year">
+            <option value="1">1st year</option>
+            <option value="2">2nd Year</option>
+            <option value="3">3rd Year</option>
+            <option value="4">4th Year</option>
+          </select>
+          <br>
+          <button type="submit" class="btn">Register</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
